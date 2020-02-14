@@ -45,10 +45,13 @@ sudo vim /etc/hosts
 myproject.dd
 ```
 
-## 7. Visit phpmyadmin locally in 
+<img src="first-screen.png">
+
+## 7. Visit phpmyadmin locally in and add the creds you have in .env file
 ```
 pma.myproject.dd
 ```
+<img src="phpmyadmin.png">
 
 The project files and nginx root are in public_html and all files you have in your project folder
 will appear in var/www/html when you enter the containers with:
