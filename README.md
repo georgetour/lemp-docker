@@ -59,6 +59,10 @@ will appear in var/www/html when you enter the containers with:
 docker exec -it myproject_app bash
 ```
 
+## 8. PHP settings and nginx error logs
+You can change PHP settings like memory etc. in php-settings/php.ini.tpl and if you have any errors
+it will be logged in logs/nginx-error.log
+
 
 You can change the env variables in the .env file you created. For example if you change myproject.dd to 
 project2.dd you will have to add to your hosts file 127.0.0.1 project2.dd pma.myproject2.dd and you
