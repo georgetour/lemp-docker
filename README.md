@@ -17,7 +17,7 @@ docker-compose up -d
 git clone git@github.com:georgetour/lemp-docker.git
 ```
 
-## 3. Rename the example.env to .env in your working project folder
+## 3. Rename the example.env to .env in your working project folder and example.php to index.php
 
 ## 4. After having all the files to the project you will work run
 ```
