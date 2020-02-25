@@ -8,6 +8,7 @@ services:
       - ./:/var/www/html
       - ./php-settings/php.ini.tpl:/etc/confd/templates/php.ini.tpl
       - ./logs/nginx-error.log:/var/log/nginx/error.log
+      - ./nginx-settings/default.conf.tpl:/etc/confd/templates/default.conf.tpl
     environment: 
       NGINX_HOST: $PROJECT_URL
       NGINX_PORT: 80
